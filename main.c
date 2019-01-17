@@ -27,7 +27,7 @@ int main()
             int x;
             int y;
             scanf("%d",&x);
-            scanf("%d",y);
+            scanf("%d",&y);
             arr[index].x=x;
             arr[index].y=y;
             index++;
@@ -41,6 +41,15 @@ int main()
         }
         if (code == 3)
         {
+            printf("suoyoucheliangweizhiruxia\n");
+            for(int i=0;i<index;i++){
+                printf("di%dgecheliangdeweizhiwei(%d,%d)\n",i+1,arr[i].x,arr[i].y);
+
+            }
+            printf("\ndianjihuichejixu\n");
+            char xx;
+            scanf("%c",&xx);
+            scanf("%c",&xx);
         }
         if (code == 4)
         {
