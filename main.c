@@ -38,6 +38,19 @@ int main()
         }
         if (code == 2)
         {
+            if(index>0){
+                index--;
+                printf("shanchuchenggong,dianjihuichejixu\n");
+                char xx;
+                scanf("%c",&xx);
+                scanf("%c",&xx);
+            }
+            else{
+                printf("wucheliangweizhixinxi,shanchushibai,dianjihuichejixu\n");
+                char xx;
+                scanf("%c",&xx);
+                scanf("%c",&xx);
+            }
         }
         if (code == 3)
         {
